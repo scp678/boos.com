@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../js/reg.js" type="module"></script>
+</head>
+
+<body>
+    <div class="reg-con bg-white" style="margin-top:50px">
+        <div class="clearfix lin-20">
+            <div class="fl f18">
+                <b>账号注册</b>
+            </div>
+            <a href="./login.html" class="col-blue fr">立即登录</a>
+        </div>
+        <div class="stepTwo">
+            <div class="log-input mt20 pr">
+                <input type="text" class="l-input1 to-i" placeholder="请输入手机号" name="phone" onkeyup="this.value=this.value.replace(/\D/g,'')">
+                <div class="l-i-icon l-i-i-w pa"></div>
+            </div>
+            <div class="log-input mt15 pr">
+                <input type="text" class="l-input1 to-i m_password" placeholder="请设置密码" name="password" onkeyup="this.value=this.value.replace(/\s/g,'')">
+                <div class="l-i-icon l-i-i-w pa l-i-1"></div>
+            </div>
+            <div id="sc" style="margin:0; margin-top:15px;"></div>
+            <div class="col-blue mt10"></div>
+            <div class="mt15">
+                <input type="button" id="submit" value="立即注册" class="l-btn f18 col-white l-b-h registerButton">
+            </div>
+            <div class="mt15 gray">
+                点击"立即注册",即表示您同意并愿意遵守 
+                <a href="javascript:;" target="_blank">
+                    <span class="yycode">《老板电器官方注册协议》</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

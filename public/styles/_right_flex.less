@@ -1,0 +1,128 @@
+// 侧边广告栏
+.left-flexed {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    padding: 0 6px;
+    width: 30px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    z-index: 10;
+    .sign-li {
+        width: 37px;
+        padding: 5px 0 0 0;
+        border-top: 0px;
+        position: absolute;
+        right: 3px;
+        top: -50px;
+    }
+    li {
+        width: 28px;
+        padding: 11px 0 10px;
+        text-align: center;
+        position: relative;
+        border-top: 1px solid #ececec;
+        a {
+            display: block;
+            width: 100%;
+        }
+        .img {
+            width: 18px;
+            height: 18px;
+            display: block;
+            margin: 0 auto;
+        }
+        .ico4 {
+            background: url(../img/right04.svg) no-repeat center;
+        }
+        &:hover .ico4 {
+            background: url(../img/right04_h.svg) no-repeat center;
+        }
+        .ico3 {
+            background: url(../img/right03_m.svg) no-repeat center;
+        }
+        &:hover .ico3 {
+            background: url(../img/right03_m_h.svg) no-repeat center;
+        }
+        .erw-box {
+            padding: 15px 54px 17px 28px;
+            width: 86px;
+            display: none;
+            position: absolute;
+            top: 5px;
+            left: -160px;
+            background: url(../img/right09.svg) no-repeat center;
+            background-size: auto 100%;
+            img {
+                width: 100%;
+                margin-bottom: 13px;
+            }
+            h2 {
+                font-size: 13px;
+                color: #4d4d4d;
+                line-height: 18px;
+            }
+        }
+        .ico2 {
+            background: url(../img/right02_m.svg) no-repeat center;
+        }
+        &:hover .ico2 {
+            background: url(../img/right02_m_h.svg) no-repeat center;
+        }
+        .ico5 {
+            background: url(../img/right05.svg) no-repeat center;
+        }
+        &:hover .ico5 {
+            background: url(../img/right05_h.svg) no-repeat center;
+        }
+    }
+    .red1212 {
+        left: -55px;
+    }
+}
+
+.gotalk-alert_ss {
+    position: absolute;
+    left: -152px;
+    bottom: -150px;
+    display: none;
+    padding-right: 18px;
+    .rignb {
+        width: 131px;
+        font-size: 12px;
+        padding: 8px 5px 0 0;
+    }
+    span {
+        font-size: 12px;
+        color: #8b8b8b;
+        line-height: 20px;
+        display: block;
+    }
+    .skin-color {
+        color: #4d4d4d;
+        margin: 0 0 10px 0;
+    }
+    .skin-btn {
+        width: 86px; 
+        height: 30px;
+        margin-top: 3px;
+        border-radius: 3px;
+        background: #007bc7;
+        color: #fff;
+        line-height: 30px;
+        display: inline-block;
+    }
+}
+
+.sanjiao {
+    position: absolute;
+    right: -7px;
+    top: 140px;
+    width: 13px;
+    height: 13px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    transform: rotate(-45deg);
+    display: block;
+    background-color: #fff;
+}

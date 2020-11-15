@@ -1,0 +1,99 @@
+.reg-con {
+  width: 412px;
+  border: 1px solid #eaeaea;
+  padding: 20px 94px 40px;
+  margin: 40px auto;
+}
+.bg-white {
+  background-color: #fff;
+}
+.lin-20 {
+  line-height: 20px;
+}
+.f18 {
+  font-size: 18px;
+}
+.col-blue {
+  color: #118ace;
+}
+.mt20 {
+  margin-top: 20px;
+}
+.pr {
+  position: relative;
+}
+.to-i {
+  border: 1px solid #c5cddb;
+  transition-duration: 0.3s;
+}
+.l-input1 {
+  width: 332px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 80px;
+}
+.l-i-icon {
+  left: 0;
+  top: 3px;
+  width: 37px;
+  height: 31px;
+  border-right: 1px solid #ccc;
+  background: url(../img/l-icon4.png) no-repeat center;
+}
+.l-i-icon.l-i-i-w {
+  left: 0;
+  top: 6px;
+  width: 54px;
+  height: 41px;
+}
+.pa {
+  position: absolute;
+}
+.mt15 {
+  margin-top: 15px;
+}
+.l-i-icon.l-i-1 {
+  background: url(../img/l-icon5.png) no-repeat center;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.l-btn {
+  width: 100%;
+  background-color: #118bce;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+}
+.l-btn.l-b-h {
+  height: 50px;
+}
+.gray {
+  color: #999;
+  font-size: 12px;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #666;
+  transition-duration: 0.3s;
+}
+.yycode {
+  color: #118bce;
+  cursor: pointer;
+  padding-left: 8px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
