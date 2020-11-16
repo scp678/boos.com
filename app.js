@@ -9,7 +9,7 @@ const app = express();
 
 let conf = {
     port: 8088,
-    host: 'localhost'
+    host: '10.31.162.71'
 };
 
 app.use(express.static(path.join(__dirname,'public')));

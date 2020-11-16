@@ -128,9 +128,10 @@ import {baseUrl} from './library/config.js';
            
             $('.optionnums-add .add').on('click',function() {
                 let num = $('#item_num').val();
-                if (num < res.gus_num + 1) {
+                // if (num < res.gus_num + 1) {
                     num++;
-                }
+                    $('.optionnums-add #item_num').val(num);
+                // }
             });
 
             // 加入购物车
